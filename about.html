@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="A front-end developer who is willing to work remotely."
+    />
+    <title>About Özge Yaşar</title>
     <!--Font awesome-->
     <script
       src="https://kit.fontawesome.com/16ffa8664d.js"
@@ -41,8 +45,8 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/logo.png" class="logo" alt=""
+        <a class="navbar-brand" href="index.html" title="Homepage">
+          <img src="images/logo.png" class="logo" alt="Özge logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -59,17 +63,18 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a
-                class="nav-link active"
+                class="nav-link"
                 aria-current="page"
                 href="index.html#projects"
+                title="Projects"
                 >Projects</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html" title="About me">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact" title="Contact me">Contact</a>
             </li>
           </ul>
         </div>
@@ -78,7 +83,7 @@
     <div class="about-section container">
       <div class="row">
         <div class="col-md-8">
-          <h1>
+          <h1 class="mb-4">
             Hi there, my name is Özge. <br />
             I'm a self taught front-end developer.
             <i class="fa-solid fa-bugs"></i> My journey started with SheCodes.
@@ -101,26 +106,40 @@
     </div>
     <footer id="contact">
       <div class="d-flex justify-content-center">
-        <a href="mailto:ozgenurayyasar@gmail.com" class="email-link mb-5"
-          >ozgenurayyasar@gmail.com</a
+        <a
+          href="mailto:ozgenurayyasar@gmail.com"
+          class="email-link mb-5"
+          title="Mail Özge"
+        >
+          <i class="fa-solid fa-square-envelope"></i>
+          ozgenurayyasar@gmail.com</a
         >
       </div>
-      <div class="social-links d-flex justify-content-center" target="_blank">
+      <div
+        class="social-links d-flex justify-content-center"
+        target="_blank"
+        title="Github profile"
+      >
         <a href="https://github.com/ozgeosbourne">
           <i class="fa-brands fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/özge-nuray-yaşar-12950887/"
           target="_blank"
+          title="Linkedin profile"
         >
           <i class="fa-brands fa-linkedin"></i
         ></a>
-        <a href="https://twitter.com/ozgeosbourne" target="_blank">
+        <a
+          href="https://twitter.com/ozgeosbourne"
+          target="_blank"
+          title="Twitter profile"
+        >
           <i class="fa-brands fa-twitter"></i
         ></a>
       </div>
     </footer>
-    <div class="signature">
+    <div class="text-center">
       <h6>©2022 This website was built from scratch by Özge N. Yaşar 🌱</h6>
     </div>
   </body>
