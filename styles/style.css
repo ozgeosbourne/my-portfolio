@@ -110,7 +110,7 @@ footer {
 footer .email-link {
     text-decoration: none;
     color: var(--branding-color);
-    font-size: 20px;
+    font-size: 18px;
 }
 /*footer .email-link:hover {
     color: black;
