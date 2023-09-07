@@ -156,6 +156,10 @@ footer .social-links a:hover {
     box-shadow: 5px 5px rgb(255, 179, 180);     
 }
 
+span.tools {
+    font-weight: bold;
+}
+
 @media (max-width: 900px) {
     h1 {
         font-size: 22px;
