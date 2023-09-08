@@ -156,6 +156,11 @@ footer .social-links a:hover {
     box-shadow: 5px 5px rgb(255, 179, 180);     
 }
 
+.rounded {
+    border-radius: 5px 5px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 10%) ;
+}
+
 span.tools {
     font-weight: bold;
 }
