@@ -165,6 +165,13 @@ span.tools {
     font-weight: bold;
 }
 
+.qr-pic {
+    margin-left: 20px;
+}
+.clock-pic {
+    margin-left: 20px;
+}
+
 @media (max-width: 900px) {
     h1 {
         font-size: 22px;
